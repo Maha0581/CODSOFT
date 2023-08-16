@@ -1,0 +1,79 @@
+.{
+   margin:0;
+   padding:0;
+
+}
+body{
+background-size: cover;
+    background-image:url("sai.jpeg"); 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+ .c{
+    width:100%;
+    height:100vh;
+    
+   }
+   .navbar{
+      width:85%;
+      margin:auto;
+      padding:30px 0;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      position:relative;
+   }
+   .logo{
+      font-size: 30px;
+      font-weight: bolder;
+      cursor:pointer;
+      text-decoration: none;
+      color:white;
+   }
+   .navbar ul li{
+      list-style: none;
+      display: inline-block;
+      margin: 0 20px;
+      position:relative;
+   }
+   .navbar ul li a{
+      text-decoration: none;
+      color:white;
+   }
+.d h1{
+   font-size: 50px;
+   color:aliceblue;
+   margin-top: 80px;
+}
+.d p{
+   margin-top: 60px  auto;
+   line-height: 40px;
+   font-size: 20px;
+   color:aliceblue;
+}
+button{
+   width:200px;
+   margin:20px 10px;
+   border-radius:25px;
+   background:transparent;
+   color:blanchedalmond;
+   position: relative;
+   border:2px solid  #f386bb;
+   padding:15px;
+   font-size:15px;
+   margin-left: 10%;
+   text-align:center;
+   cursor:pointer;
+}
+span{
+   position: absolute;
+   left:0;
+   right:0;
+   background-color:#f386bb ;
+   width:0;
+   height:100%;
+   border-radius: 25px;
+   z-index: -1;
+   transition: 0.5s;
+
+}
